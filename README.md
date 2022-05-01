@@ -1,21 +1,8 @@
 
-d ss.  d sss   d s  b d ss    d sss   d ss.              sSSSs     sss.   sss.
-S    b S       S  S S S   ~o  S       S    b            S     S  d      d
-S    P S       S   SS S     b S       S    P           S       S Y      Y
-S sS'  S sSSs  S    S S     S S sSSs  S sS'            S       S   ss.    ss.
-S   S  S       S    S S     P S       S   S            S       S      b      b
-S    S S       S    S S    S  S       S    S            S     S       P      P
-P    P P sSSss P    P P ss"   P sSSss P    P             "sss"   ` ss'  ` ss'
-
 # RENDER - OFFENSIVE SECURITY SOLUTIONS - "GREYCRAK"
 # MADE BY: "Grey."
-#
-# // ! All other sellers have scammed / are trying to rat you.
-#
-# // : If this is cracked / leaked : Donate to me : All BTC is appreciated. :
 # // : BTC : 3Mf37GhjYfrjTG59hmT3rAe5ntWDCgeDVg
-#=====================================================================================================
-
+-----------------------------------------
 
 This is a simple bitcoin Cracker. It looks for private keys then matches it to a working address, which is found in GREYCRAK/database then matches it to common keywords.
 Giving you access to take their funds.
@@ -26,22 +13,17 @@ This is compatible for any operating system that supports Python3.
 
 The database currently holds `19,216,420 Bitcoin addresses`. This is the total number of P2PKH Bitcoin addresses with a balance that exist in the blockchain.
 
-==========================================================================================================================================================================================
-- NOTES:
+# - NOTES:
 
  > Join the discord : https://discord.gg/3qKxa48n4E
 
- > Also, The database was created using a third-party program: "https://github.com/graymauser/btcposbal2csv"
-/ which generates a csv file of all Bitcoin addresses with a positive balance.
-/ It works by analyzing the current unspent transaction output set (UTXO), aggregating outputs to same addresses together and writes them to csv file.
-/ Please be sure to refresh this if need be.
-==========================================================================================================================================================================================
+ Also, The database was created using a third-party program: "https://github.com/graymauser/btcposbal2csv"
+ which generates a csv file of all Bitcoin addresses with a positive balance.
+It works by analyzing the current unspent transaction output set (UTXO), aggregating outputs to same addresses together and writes them to csv file.
+ Please be sure to refresh this if need be.
 
-
-
-
-==========================================================================================================================================================================================
-Installation:
+-----------------------------------------
+# - Installation:
 
 git clone https://github.com/RealGreyDB/GREYCRAK.git GREYCRAK
 
@@ -50,7 +32,9 @@ cd GREYCRAK && pip3 install -r requirements.txt
 python3 GREYCRAK.py
 
 Then just wait it out, all outputs of verified hits will be displayed in GREYCRAK.txt
-==========================================================================================================================================================================================
+
+-----------------------------------------
+
 STATISTICS:
 
 It takes 0.003 seconds for this program to brute force a single Bitcoin address.
@@ -58,12 +42,13 @@ It takes 0.003 seconds for this program to brute force a single Bitcoin address.
 But. through multiprocessing, a concurrent process is created for every CPU your computer has. So this program can brute force addresses at a speed of 0.003 Divided by the cpu count
 Every time this program checks the balance of a generated address, it will print the result to the user. If an empty wallet is found, then the wallet address will be printed to the terminal.
 
-==========================================================================================================================================================================================
+-----------------------------------------
+
 An example is:
 
 1Kz2CTvjzkZ3p2BQb5x5DX6GEoHX2jFS45
 
-==========================================================================================================================================================================================
+-----------------------------------------
 
 However, if a wallet with a balance is found, it will be put in GREYCRAK.txt.
 
