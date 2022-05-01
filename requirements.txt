@@ -1,0 +1,7 @@
+starkbank-ecdsa==0.1.4
+python 3.6
+pip
+hashlib
+plyvel
+base58
+sqlite3
